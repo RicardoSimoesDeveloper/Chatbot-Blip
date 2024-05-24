@@ -6,7 +6,7 @@ O desafio inclui a criação de uma API RESTful para realizar a integração com
 ## Tecnologias Utilizadas
 
 - Linguagem de Programação: C# (API)
-- Framework: .NET
+- Framework: .NET 8.0
 - Plataforma: Blip (para a implementação do chatbot)
 - Serviço de Hospedagem: 
 
