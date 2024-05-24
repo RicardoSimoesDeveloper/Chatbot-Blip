@@ -5,20 +5,29 @@ O desafio inclui a criação de uma API RESTful para realizar a integração com
 
 ## Tecnologias Utilizadas
 
-- Linguagem de Programação: C# (API)
+- Linguagem de Programação: C# (API) com swagger
 - Framework: .NET 8.0
 - Plataforma: Blip (para a implementação do chatbot)
-- Serviço de Hospedagem: 
+- Serviço de Hospedagem: Azure
+- Endereço: https://todoapi20240524182837.azurewebsites.net
+- Endpoint para visualizar json: https://todoapi20240524182837.azurewebsites.net/api/TodoItems/GitHubRepos
 
 ## Como Executar o Projeto
 
 1. Criar uma conta no portal Blip e importar o json do chatbot que esta na pasta flow.
 
+## Para testar codigo
+1. Instale .NET
+2. Baixe o fonte do repositório
+3. Atualize o build dentro do projeto: dotnet build
+4. Rode o server: dotnet run
+5. Entre no endeço localhost gerado e acrescente /swagger na frente.
+
 ## Autor
 
-Ricardo Simões nascimento
+Ricardo Simões Nascimento
 
 ---
 
-**Data de Criação do README:** 23/05/2024
+**Data de Criação do README:** 24/05/2024
 
